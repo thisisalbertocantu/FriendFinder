@@ -20,5 +20,5 @@ Go to this page -->
 Alberto Alejandro Cantu Trejo [thisisalbertocantu](https://github.com/thisisalbertocantu/)
 
 # URLS
-* [Github]((https://github.com/thisisalbertocantu/FriendFinder/)
+* [Github](https://github.com/thisisalbertocantu/FriendFinder/)
 * [Heroku](https://friends-finder-thisisalberto.herokuapp.com/)
