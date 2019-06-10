@@ -14,3 +14,11 @@ Go to this page -->
 * [NodeJs](https://nodejs.org/en/)
 * [Express](https://expressjs.com/es/)
 * [Bootstrap](https://getbootstrap.com/)
+
+# Authors
+
+Alberto Alejandro Cantu Trejo [thisisalbertocantu](https://github.com/thisisalbertocantu/)
+
+# URLS
+[Github]((https://github.com/thisisalbertocantu/FriendFinder/)
+[Heroku](https://friends-finder-thisisalberto.herokuapp.com/)
