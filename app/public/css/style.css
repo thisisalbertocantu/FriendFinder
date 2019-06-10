@@ -1,0 +1,20 @@
+body{
+    background-image: url("../images/friend_finder.jpg");
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+.jumbotron{
+    background-color: #0000004b;
+    color:white;
+}
+
+.container {
+    color: #ffffff;
+}
+
+p { 
+    color: #ffffff; 
+   } 
