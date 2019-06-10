@@ -14,29 +14,29 @@ module.exports = function(app) {
     var user = req.body;
 
     // Parse user score arreay
-    for (let index = 0; index < user.scores.length; index++) {
+    for (var index = 0; index < user.scores.length; index++) {
         user.scores[index] = parseInt(user.scores[index]);
     }
 
-    var lowestDifference = 100;
-    var bestMatchIndex = 0;
+    var lowestScore = 100;
+    var bestScore = 0;
 
-    for (let i = 0; i < friends.length; i++) {
+    for (var i = 0; i < friends.length; i++) {
 
-        var currentDifference = 0;
+        var Difference = 0;
 
-        for (let j = 0; j < friends[i].scores.length; j++) {
-            currentDifference += Math.abs(user.scores[j] - friends[i].scores[j]);
+        for (var j = 0; j < friends[i].scores.length; j++) {
+            Difference += Math.abs(user.scores[j] - friends[i].scores[j]);
         }
 
-        if(currentDifference < lowestDifference){
-            bestMatchIndex = i;
-            lowestDifference = currentDifference;
+        if(Difference < lowestScore){
+            bestScore = i;
+            lowestScore = Difference;
         }
     }
 
     friends.push(user);
-    res.json(friends[bestMatchIndex]);
+    res.json(friends[bestScore]);
 
   });
 };
